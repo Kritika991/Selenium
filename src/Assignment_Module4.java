@@ -22,13 +22,13 @@ public class Assignment_Module4 extends Testbase {
 		WebElement we=driver.findElement(By.xpath("//*[contains(@name,'or-src')]"));
 		we.click();
 		
-		List<WebElement> autosuggest=driver.findElements(By.xpath("//*[@id=\"bookFlightTab\"]/form/div[3]/div[1]/div[1]/div/div/div"));
+		List<WebElement> autosuggest=driver.findElements(By.xpath("//*[@id=\"bookFlightTab\"]/form/div[3]/div[1]/div[1]/div/div/div/div"));
 		//WebDriverWait wait=new WebDriverWait(driver,20);
 		//wait.until(ExpectedConditions.visibilityOfAllElements(autosuggest));
 		
-		int lsize=autosuggest.size();
-		System.out.println(lsize);
-		for(int i=0;i<lsize;i++)
+
+		System.out.println(autosuggest.size());
+		for(int i=0;i<autosuggest.size();i++)
 		{
 			System.out.println(autosuggest.get(i).getText());
 			if(autosuggest.get(i).getText().contains("Bengaluru, India"))
