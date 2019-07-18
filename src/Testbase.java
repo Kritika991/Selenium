@@ -39,7 +39,7 @@ public class Testbase {
 		{
 				System.setProperty("webdriver.gecko.driver","C:/Users/Kritika/Desktop/Selenium/Drivers/geckodriver.exe");
 				driver= new FirefoxDriver();
-				driver.manage().window().maximize();
+				//driver.manage().window().maximize();
 		
 		}
 
