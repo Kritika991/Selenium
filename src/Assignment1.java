@@ -66,7 +66,7 @@ public class Assignment1 extends Testbase {
 		
 		//partial linktext
 		WebElement plinktext=driver.findElement(By.partialLinkText("Log I"));
-		String pname=plinktext.getText();
+		String kname=plinktext.getText();
 		System.out.println(pname);
 		plinktext.click();
 		driver.navigate().back();
