@@ -69,7 +69,7 @@ public class Assignment1 extends Testbase {
 		String pname=plinktext.getText();
 		System.out.println(pname);
 		plinktext.click();
-		driver.navigate().back();
+		//driver.navigate().back();
 		
 		driver.close();
 
