@@ -71,7 +71,7 @@ public class Assignment1 extends Testbase {
 		plinktext.click();
 		driver.navigate().back();
 		
-		driver.close();
+		//driver.close();
 
 	}
 
