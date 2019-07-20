@@ -31,7 +31,7 @@ public class Assignment1 extends Testbase {
 		WebElement searchname=driver.findElement(By.name("email"));
 		searchname.sendKeys("kritika991@gmail.com");
 		
-		searchname.clear();
+		//searchname.clear();
 		
 		
 		//Using Xpath
