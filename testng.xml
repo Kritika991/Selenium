@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maven Suite">
+  <test name="Maven Test">
+  <classes>
+  <class name="samplepackage.Assignment1"></class>
+  </classes>
+  </test> <!-- Maven Test -->
+</suite> <!-- Maven Suite -->
