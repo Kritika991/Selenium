@@ -25,7 +25,7 @@ public class Assignment1 extends Testbase {
 		WebElement searchid=driver.findElement(By.id("email"));
 		searchid.sendKeys("kritika991@gmail.com");
 		
-		searchid.clear();
+		//searchid.clear();
 	
 		//Using Name
 		WebElement searchname=driver.findElement(By.name("email"));
